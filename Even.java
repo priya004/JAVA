@@ -1,7 +1,7 @@
 import java.util.*;
 Public class Even{
   Static int test(int num){
-    if(num % 2 == 0)
+    if(num % 2 == 0 || num == 0)
       return 2;
     else
       return 1;
